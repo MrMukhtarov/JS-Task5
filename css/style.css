@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    padding: 7rem 0;
+    background-color: beige;
+}
+input{
+    padding: 7px 30px;
+    border: 1px solid violet;
+    outline: none;
+    color: tomato;
+    border-radius: 10px;
+}
+button{
+    padding: 7px 30px;
+    background-color: white;
+    border: 1px solid violet;
+    transition: .3s;
+    cursor: pointer;
+    color: tomato;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.div{
+    padding: 0 10px;
+    border: 1px solid violet;
+    width: 27%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: tomato;
+    border-radius: 10px;
+}
+ h2{
+    font-size: 60px;
+    color: tomato;
+}
+i{
+    cursor: pointer;
+}
+marquee{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    width: 100%;
+}
